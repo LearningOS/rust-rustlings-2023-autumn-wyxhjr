@@ -13,9 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+
 
 // Put your function here!
+fn calculate_price_of_apples(prs:u32)->u32 {
+    if prs<=40{
+        prs*2
+    }else{
+        prs
+    }
+}
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
