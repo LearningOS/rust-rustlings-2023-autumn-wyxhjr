@@ -19,7 +19,16 @@
 // fn calculate_price_of_apples {
 
 // Don't modify this function!
+
+fn calculate_price_of_apples(prs:u32)->u32 {
+    if prs<=40{
+        prs*2
+    }else{
+        prs
+ }
+}
 #[test]
+
 fn verify_test() {
     let price1 = calculate_price_of_apples(35);
     let price2 = calculate_price_of_apples(40);
