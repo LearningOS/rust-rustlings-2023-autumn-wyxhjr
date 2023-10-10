@@ -4,10 +4,8 @@
 // lines with multiple semicolons necessary!)
 //
 // Execute `rustlings hint move_semantics3` or use the `hint` watch subcommand
-// for a hint.
-
-E
-
+// for a hin
+//
 fn main() {
     let vec0 = Vec::new();
 
